@@ -1,6 +1,7 @@
 import yaml
 import logging
 import sys
+import os
 
 from dataclasses import dataclass, field
 from marshmallow_dataclass import class_schema
@@ -15,10 +16,7 @@ handler = logging.StreamHandler(sys.stdout)
 logger.setLevel(logging.DEBUG)
 logger.addHandler(handler)
 
-
 PATH = "../configs/train_config.yaml"
-
-
 @dataclass()
 class TrainingPipelineParams:
     output_model_path: str
@@ -46,7 +44,6 @@ def read_training_pipeline_params(path: str) -> TrainingPipelineParams:
 
 
 if __name__ == "__main__":
+    
     params = read_training_pipeline_params(PATH)
-    
     logger.debug(f"params: {params}")
-    
