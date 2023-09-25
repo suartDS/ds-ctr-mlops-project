@@ -12,7 +12,7 @@ from src.entities.train_params import TrainingParams
 
 logger = logging.getLogger(__name__)
 handler = logging.StreamHandler(sys.stdout)
-logger.setLevel(logging.INFO)
+logger.setLevel(logging.DEBUG)
 logger.addHandler(handler)
 
 
@@ -46,5 +46,7 @@ def read_training_pipeline_params(path: str) -> TrainingPipelineParams:
 
 
 if __name__ == "__main__":
-    read_training_pipeline_params(PATH)
+    params = read_training_pipeline_params(PATH)
+    
+    logger.debug(f"params: {params}")
     
