@@ -1,7 +1,7 @@
 # This file must be used with "source bin/activate" *from bash*
 # you cannot run it directly
 
-#export PYTHONPATH="${PYTHONPATH}:/path/to/your/project/"
+export PYTHONPATH="${PYTHONPATH}:/Users/asuchkov/Docker/docker_ds/jupyter_files/MLOps/ctr_project_t"
 
 deactivate () {
     # reset old environment variables
@@ -69,5 +69,3 @@ fi
 if [ -n "${BASH:-}" -o -n "${ZSH_VERSION:-}" ] ; then
     hash -r 2> /dev/null
 fi
-
-export PYTHONPATH="${PYTHONPATH}:/Users/asuchkov/Docker/docker_ds/jupyter_files/MLOps/ctr_project_t"
