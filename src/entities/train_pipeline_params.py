@@ -16,7 +16,7 @@ handler = logging.StreamHandler(sys.stdout)
 logger.setLevel(logging.DEBUG)
 logger.addHandler(handler)
 
-PATH = "train_config.yaml"
+PATH = "../../configs/train_config.yaml"
 @dataclass()
 class TrainingPipelineParams:
     output_model_path: str
@@ -48,3 +48,7 @@ if __name__ == "__main__":
     params = read_training_pipeline_params(PATH)
     logger.debug(f"params: {params}")
     logger.debug(params.splitting_params.val_size)
+    logger.debug(params.metric_path)
+
+    
+    
