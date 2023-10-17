@@ -10,9 +10,9 @@ splitting_params:
 train_params:
   model_type: "CatBoost"
   random_state: 42
-  n_estimators: 50
-  learning_rate: 0.025
-  depth: 5
+  n_estimators: 400
+  learning_rate: 0.02
+  depth: 6
   bagging_temperature: 0.2
 feature_params:
   count_features:

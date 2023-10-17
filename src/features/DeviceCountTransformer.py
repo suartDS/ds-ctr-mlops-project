@@ -35,3 +35,4 @@ class DeviceCountTransformer(BaseEstimator, TransformerMixin):
         return pd.DataFrame(
             self.device_count_feature, columns=[f"{self.column_name}_count"]
         )
+    
