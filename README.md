@@ -2,7 +2,7 @@
 # Production ready DS project 
 
 
-## This is an example of creating production ready Data scientist projects using pipeline training, tests and CI
+## This is an example of creating production ready Data scientist projects using: pipeline training, tests and CI ...
  
 
 DS Task:
