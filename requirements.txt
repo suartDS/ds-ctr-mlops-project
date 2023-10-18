@@ -120,7 +120,6 @@ semver==3.0.2
 shortuuid==1.0.11
 shtab==1.6.4
 six==1.16.0
-scikit-learn==0.24.1
 smmap==5.0.1
 sqltrie==0.8.0
 stack-data==0.6.2
