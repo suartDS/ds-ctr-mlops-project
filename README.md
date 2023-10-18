@@ -1,10 +1,29 @@
-ctr_project_t
+
+# Production ready DS project 
 ==============================
 
 
+## This is an example of creating production ready Data scientist projects using pipeline training, tests and CI
+ 
 
+DS Task:
+- We believe that the user has already seen the banner
+- For a given session you need to predict whether the user will click
+on a banner or not
 
-ctr prediction
+## Metrics - Negative Log Loss (NLL)
+
+## MLOps level
+
+<p align="center">
+  <img src="./notebooks/img/MLOps_level_1.png" alt="At_1" width="738">
+</p>
+
+## Data transformation pipeline
+
+<p align="center">
+  <img src="./notebooks/img/MLOps_level_1.png" alt="At_1" width="738">
+</p>
 
 Project Organization
 ------------

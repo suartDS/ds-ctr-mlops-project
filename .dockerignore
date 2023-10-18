@@ -1,20 +1,4 @@
-__pycache__
-*.pyc
-*.pyo
-*.pyd
-.Python
-env
-pip-log.txt
-pip-delete-this-directory.txt
-.toxpython -m pytest tests
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.log
 .git
-.mypy_cache
+.dvc
 .pytest_cache
-.hypothesis
+/data/raw/
