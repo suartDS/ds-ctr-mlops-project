@@ -2,7 +2,8 @@ name: Pythongi Package using Conda
 
 on:
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
+  workflow_dispatch: # Put here!!
 
 jobs:
   build-linux:
