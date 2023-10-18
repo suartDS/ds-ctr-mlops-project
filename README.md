@@ -1,6 +1,5 @@
 
 # Production ready DS project 
-==============================
 
 
 ## This is an example of creating production ready Data scientist projects using pipeline training, tests and CI
@@ -11,9 +10,9 @@ DS Task:
 - For a given session you need to predict whether the user will click
 on a banner or not
 
-## Metrics - Negative Log Loss (NLL)
+Metrics - Negative Log Loss (NLL)
 
-## MLOps level
+## MLOps level 1
 
 <p align="center">
   <img src="./notebooks/img/MLOps_level_1.png" alt="At_1" width="738">
@@ -22,7 +21,7 @@ on a banner or not
 ## Data transformation pipeline
 
 <p align="center">
-  <img src="./notebooks/img/MLOps_level_1.png" alt="At_1" width="738">
+  <img src="./notebooks/img/Data_Pipeline.png" alt="At_1" width="738">
 </p>
 
 Project Organization
