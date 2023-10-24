@@ -28,8 +28,8 @@ if __name__ == "__main__":
     #"../data/raw/sampled_train_50k.csv"
     print('------',os.path)
     s3_client.upload_file( 
-                    "./sampled_train_50k.csv",
+                    "./data/raw/sampled_train_50k.csv",
                     "ctr_cnt",
-                    "tests/sample_train_50k_v_2.csv"
+                    "sampled_train_50k.csv.csv"
                 )
     

@@ -29,6 +29,5 @@ if __name__ == "__main__":
     s3_client.download_file(
                     "ctr_cnt",
                     "tests/sample_train_50k.csv",
-                    "ctr_cnt",
-                    "data/sample_train_50k_v_2.csv"
+                    "tests/sample_train_50k.csv",
                 )
