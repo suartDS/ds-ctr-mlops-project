@@ -26,7 +26,6 @@ if __name__ == "__main__":
     #for key in response['Buckets']:
     #    print(key['Name'])
     #"../data/raw/sampled_train_50k.csv"
-    print('------',os.path)
     s3_client.upload_file( 
                     "./data/raw/sampled_train_50k.csv",
                     "ctr_cnt",
