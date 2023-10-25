@@ -15,7 +15,6 @@ if __name__ == "__main__":
     
     s3_client = session.client(
         service_name = "s3",
-        region_name = "ru-msk",
         aws_access_key_id = aws_access_key_id,
         aws_secret_access_key = aws_secret_access_key,
         endpoint_url = "http://hb.ru-msk.vkcs.cloud"
