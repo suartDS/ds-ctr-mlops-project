@@ -7,10 +7,7 @@ if __name__ == "__main__":
     
     aws_access_key_id = os.getenv("aws_access_key_id")
     aws_secret_access_key = os.getenv("aws_secret_access_id")
-    
-    print("aws_access_key_id", aws_access_key_id)
-    print("aws_secret_access_key", aws_secret_access_key)
-    
+        
     session = boto3.session.Session()
     
     s3_client = session.client(
@@ -31,3 +28,4 @@ if __name__ == "__main__":
                     "sampled_train_50k.csv.csv"
                 )
     
+    print('--File uploaded--')
