@@ -79,6 +79,7 @@ target/
 #/venv_ctr/
 /mlartifacts/
 /mlruns/
+/catboost_info/
 
 # Mac OS-specific storage files
 .DS_Store
